@@ -2,9 +2,9 @@
 #define REQUESTCALCULATIONS_H
 
 #include "BasicCalculations.h"
+#include "AdvancedOperations.h"
 
-
-class RequestCalculations : public BasicCalculations
+class RequestCalculations : public BasicCalculations, public AdvancedOperations
 {
     public:
         RequestCalculations();

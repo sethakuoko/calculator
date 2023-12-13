@@ -15,12 +15,13 @@ int main()
     cout << "2. Subtraction" << endl;
     cout << "3. Multiplication" << endl;
     cout << "4. Division" << endl;
+    cout << "5. Advances operations" << endl;
 
     int operation{};
 
     askForInput(operation,"Enter the number before the operator specifying the operation you want to perform");
 
-    while(operation >= 5 || operation <= 0)
+    while(operation >= 6 || operation <= 0)
     {
         cout << "Number must be between 1 and 4" << endl;
         askForInput(operation,"");
@@ -43,6 +44,10 @@ int main()
         break;
     case 4:
          requestCalculations.requestDivision();
+
+        break;
+    case 5:
+        cout << "Requesting for advanced operations" << endl;
 
         break;
 
