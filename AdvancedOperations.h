@@ -8,11 +8,11 @@ private:
 public:
     AdvancedOperations(/* args */);
 
-    void sqrt(double value, double& result);
+    void squareroot(double value, double& result);
     void exponential(double firstValue, double secondValue,double& result);
-    void sin(double firstValue, double& result);
-    void cosin(double firstValue, double& result);
-    void tan(double firstValue, double& result);
+    void sine(double firstValue, double& result);
+    void cosine(double firstValue, double& result);
+    void tangent(double firstValue, double& result);
     void toDecimal(double firstValue, double secondValue, double& result);
 
 

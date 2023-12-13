@@ -1,37 +1,43 @@
+#include <cmath>
+
 #include "AdvancedOperations.h"
 
 AdvancedOperations::AdvancedOperations(/* args */)
 {
 }
 
-void AdvancedOperations::sqrt(double value, double &result)
+void AdvancedOperations::squareroot(double value, double &result)
 {
+    result = sqrt(value);
 }
 
 void AdvancedOperations::exponential(double firstValue,double secondValue, double& result)
 {
-
+    result = pow(firstValue,secondValue);
 }
 
 
-void AdvancedOperations::sin(double value, double &result)
+void AdvancedOperations::sine(double value, double &result)
 {
+    result = sin(value);
 }
 
 
 
-void AdvancedOperations::cosin(double value, double &result)
+void AdvancedOperations::cosine(double value, double &result)
 {
+    result = cos(value);
 }
 
 
-void AdvancedOperations::tan(double value, double &result)
+void AdvancedOperations::tangent(double value, double &result)
 {
+    result = tan(value);
 }
 
 void AdvancedOperations::toDecimal(double firstValue,double secondValue, double& result)
 {
-
+    result = firstValue / secondValue;
 }
 
 

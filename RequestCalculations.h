@@ -14,11 +14,16 @@ class RequestCalculations : public BasicCalculations, public AdvancedOperations
         void requestSubtraction();
         void requestDivision();
         void requestMultiplication();
-
+        void requestSquareRoot();
+        void requestExponential();
+        void requestSine();
+        void requestCosine();
+        void requestTangent();
+        void requestToDecimal();
 
     protected:
 
     private:
 };
 
-#endif // REQUESTCALCULATIONS_H
+#endif 

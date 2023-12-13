@@ -30,5 +30,15 @@ void askForInput(T& inputVariable, string instructions)
     }
 }
 
+// void displayAdvanceFeatures(){
+//     cout << "Enter the number before the required operation" << endl;
+
+//     cout << "1. Squareroot" << endl;
+//     cout << "1. Exponential" << endl;
+//     cout << "1. Sine" << endl;
+//     cout << "1. Cosine" << endl;
+//     cout << "1. Tangent" << endl;
+//     cout << "1. Convert fraction to decimal" << endl;
+// }
 
 #endif // USERINPUT_H
