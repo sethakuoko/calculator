@@ -9,6 +9,10 @@ using std::endl;
 using std::string;
 using std::to_string;
 
+//this class contains member functions that set-up the requirements for a specific operator,
+//request for the necessary operation from the basic calculations and advanced operation class
+//displays the result and pass it to the savecalculations class to save the operation performed
+
 RequestCalculations::RequestCalculations()
 {
     //ctor

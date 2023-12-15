@@ -4,6 +4,9 @@
 #include "BasicCalculations.h"
 #include "AdvancedOperations.h"
 
+//header class for requesting operations
+//Actual implementation in RequestCalculations.cpp
+
 class RequestCalculations : public BasicCalculations, public AdvancedOperations
 {
     public:

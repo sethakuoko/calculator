@@ -1,6 +1,8 @@
 #ifndef ADVANCEDOPERATIONS_H
 #define ADVANCEDOPERATIONS_H
 
+//header file for implementing advanced operations
+//Actual implementation details in AdvancedOperations.cpp
 class AdvancedOperations
 {
 private:

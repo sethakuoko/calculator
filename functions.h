@@ -12,7 +12,7 @@ using std::string;
 using std::cout;
 using std::endl;
 
-
+//template function to take care of input operations
 template <typename T>
 void askForInput(T& inputVariable, string instructions)
 {

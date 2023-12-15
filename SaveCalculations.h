@@ -7,6 +7,8 @@
 using std::string;
 using std::fstream;
 
+//header class for saving operations
+//Actual implementation details in SaveCalculations.cpp
 class SaveCalculations
 {
 private:

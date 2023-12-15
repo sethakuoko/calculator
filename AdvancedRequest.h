@@ -5,7 +5,10 @@
 using std::cout;
 using std::endl;
 
+//function to display and request advanced operations
 void advancedOpp(){
+
+//displaying advanced operation dialog 
         cout << "Enter the number before the required operation" << endl;
 
         cout << "1. Squareroot" << endl;
@@ -17,9 +20,10 @@ void advancedOpp(){
 
     int advancedOperand{};
     double firstValue{},secondValue{};
-
+//requesting for advanced operation type from the user
     askForInput(advancedOperand,"Enter the number before the requird operation");
 
+//requesting for the required operation 
     RequestCalculations requestCalculations;
       switch (advancedOperand)
     {

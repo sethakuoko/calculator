@@ -1,5 +1,7 @@
 #include "BasicCalculations.h"
 
+//source file to implement r basic operations
+
 BasicCalculations::BasicCalculations()
 {
 

@@ -13,21 +13,29 @@ using std::getline;
 using std::cout;
 using std::exit;
 
+//constructor for calculations involving only a single input
 SaveCalculations::SaveCalculations(string operation, string firstValue)
 {
      this -> firstValue = firstValue;
     this -> operation = operation;
     thirdValue = "";
+
+//saving the operation performed
+    writeToFile();
 }
+
+//contructor for calculations involving two inputs
 SaveCalculations::SaveCalculations(string firstValue,string operation,string thirdValue)
 {
     this -> firstValue = firstValue;
     this -> operation = operation;
     this -> thirdValue = thirdValue;
 
+//saving the operation performed 
     writeToFile();
 }
 
+//function to save history to file
 void SaveCalculations::writeToFile(){
 
     std::chrono::system_clock::time_point now = std::chrono::system_clock::now();
@@ -46,6 +54,7 @@ void SaveCalculations::writeToFile(){
     
 }
 
+//function to read the history from file
 void SaveCalculations::readFromFile(){
     historyFile.open("history.txt",ios::in);
 
@@ -59,6 +68,10 @@ void SaveCalculations::readFromFile(){
    
 }
 
+//ensuring all opened files are closed
+
 SaveCalculations::~SaveCalculations()
 {
+    if(historyFile.is_open())
+        historyFile.close();
 }

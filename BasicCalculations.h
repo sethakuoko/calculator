@@ -1,7 +1,8 @@
 #ifndef BASICCALCULATIONS_H
 #define BASICCALCULATIONS_H
 
-
+//header file for performing basic calculations
+//Actual implementation in BasicCalculations.cpp
 class BasicCalculations
 {
     public:
